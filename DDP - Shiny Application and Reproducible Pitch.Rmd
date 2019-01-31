@@ -1,0 +1,38 @@
+---
+title: "Developing Data Products - Shiny Application and Reproducible Pitch"
+author: "Osiepere"
+date: "January 31, 2019"
+output:
+  ioslides_presentation: default
+  beamer_presentation: default
+  slidy_presentation: default
+---
+
+## Introduction
+
+This project is built as part of Developing Data Products final project. This consists of two parts - 
+
+1. Create a Shiny apllication and deploy on ShinnyApps servers.
+2. Create a markdown file(Slidy presentation) to prepare a reproducible pitch presentation.
+
+## Shiny App
+
+- In this project a simple Shiny Application is created, which calculate BMI of a person given his/her weight and height as inputs.
+
+### BMI Calculation Algorithm
+
+- BMI = Weight(in KG) / (height(in CM)/100 * height(in CM)/100)
+
+- For example: If a persom weights 50 KG & 160cm tall, then BMI would be = 50 / (160/100 * 160/100) = 19.53125
+
+## Shiny App and Source Code links
+- The application can be found in the following link
+<href>https://olawani.shinyapps.io/BMI_Calculator/</href>
+
+- Source codes are in Github repo
+<href>https://github.com/olawani/DDP_Shiny_App</href>
+
+- Link to the Slidy Presentation
+<href>http://rpubs.com/olawani/462307</href>
+
+
